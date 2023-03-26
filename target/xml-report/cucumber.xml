@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="513.605">
+    <testcase classname="n11 Mobil Uygulamasi" name="Hepsiburada outdoor ayakkabi satın alma testi" time="512.7">
+        <system-out><![CDATA[Given "Hesabim ikonuna" tiklanir............................................passed
+And "email" yazilir.........................................................passed
+Then "login giris yap" tiklanir.............................................passed
+And "sifre" yazilir.........................................................passed
+And "giris yap" tiklanir....................................................passed
+And "tamam" tiklanir........................................................passed
+And "carpi simgesi" tiklanir................................................passed
+Given Kategorilere tiklanir.................................................passed
+And "Spor outdoor kategorisi" için sayfa taranir ve kategori var ise tiklanir.passed
+Then Outdoor giyim ayakkabi kategorisi tiklanir.............................passed
+And "Outdoor Bot" için sayfa taranir ve kategori var ise tiklanir...........passed
+And "filtrele" tiklanir.....................................................passed
+Then "cinsiyet" tiklanir....................................................passed
+Then "fiyat araligi" tiklanir...............................................passed
+And "En az fiyat" yazilir...................................................passed
+And "En cok fiyat" yazilir..................................................passed
+Then "urunleri gor" tiklanir................................................passed
+And "slazenger Habib Erkek Outdoor Bot" tiklanir............................passed
+When "sepete ekle" tiklanir.................................................passed
+Then "sepete git" tiklanir..................................................passed
+Then "alisverisi tamamla" tiklanir..........................................passed
+Then "adres bilgileri" yazilir..............................................passed
+Then "kart bilgileri" yazilir...............................................passed
+And uygulamayi kapat........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
