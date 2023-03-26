@@ -57,9 +57,6 @@ public class HepsiburadaPage {
     By kartUzerindekiIsim=AppiumBy.xpath("(//android.view.View[@resource-id='paymentOptions']//android.widget.EditText)[2]");
     By sonKullanmaTarihi =AppiumBy.xpath("(//android.view.View[@resource-id='paymentOptions']//android.widget.EditText)[3]");
     By cvc=AppiumBy.xpath("(//android.view.View[@resource-id='paymentOptions']//android.widget.EditText)[4]");
-   //adress
-    By yeniAddress = AppiumBy.androidUIAutomator("new UiSelector().text(\"Yeni adres ekle\")");
-    By alisverisKredisi=AppiumBy.androidUIAutomator("new UiSelector().text(\"Alışveriş kredisi 3 Ay Sonra Öde\")");
 
 
 
