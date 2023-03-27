@@ -1,4 +1,4 @@
-  Feature:n11 Mobil Uygulamasi
+  Feature:Hepsiburada mobil uygulamasi ürün satın alma EndToEnd testi
     Background: Login olunur
       Given "Hesabim ikonuna" tiklanir
       And   "email" yazilir
@@ -7,7 +7,7 @@
       And  "giris yap" tiklanir
       And  "tamam" tiklanir
       And  "carpi simgesi" tiklanir
-    @smoke1
+    @endToEnd @smoke
     Scenario:Hepsiburada outdoor ayakkabi satın alma testi
       Given Kategorilere tiklanir
       And   "Spor outdoor kategorisi" için sayfa taranir ve kategori var ise tiklanir

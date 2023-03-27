@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         plugin = { "pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
         features = {"src/test/java/features"},
         glue = {"stepDefinitions"},
-        tags= "@smoke1",
+        tags= "@endToEnd",
         dryRun = false
 )
 
